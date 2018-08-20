@@ -20,19 +20,19 @@ function myFunction(e) {
         data = [ans[0], ans[1], ans[2], ans[3], ans[4]];
         break;
       
-      case "Signature":
+      case "페이스북 & 인스타그램 (Facebook & Instagram)":
         data = [ans[0], ans[1], ans[2], ans[3], ans[5]];
         break;
       
-      case "블로그 (Blog)":
+      case "네이버 블로그/포스트 (Naver Blog/Post)":
         data = [ans[0], ans[1], ans[2], ans[3], ans[6]];
         break;
       
-      case "페이스북 (Facebook)":
+      case "유튜브 영상 제작 (Video Creation)":
         data = [ans[0], ans[1], ans[2], ans[3], ans[7]];
         break;
       
-      case "영상 제작 (Video Creation)":
+      case "비트코인톡 서명 (Bitcointalk Signature):
         data = [ans[0], ans[1], ans[2], ans[3], ans[8]];
         break;
                                         
