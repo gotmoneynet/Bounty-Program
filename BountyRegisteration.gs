@@ -8,8 +8,8 @@ var ssID = "INSERT GOOGLE SPREADSHEET HASH KEY HERE";
 function myFunction(e) {
   try{
     //array that holds the form data (registeration information)
-    var ans = e.values; //[타임스탬프(0), 이메일 주소(1),	이더리움 지갑주소(2), Campaign Category(3), 트위터 URL(4), Signature URL(5), 블로그 URL(6), 페이스북 URL(7), 유튜브 URL(8)]
-    
+    var ans = e.values; //[타임스탬프(0), 이메일 주소(1), 이더리움 지갑 주소(2), 바운티 종류(3), 트위터 프로필 주소(4), 비트코인톡 프로필 주소(5), 블로그 주소(6), 페이스북 프로필 주소(7), 인스타그램 사용자ID(8), 유튜브 채널 주소(9)]									]
+    Logger.log(ans);
     //opens the sheet where the form data would be classfied to
     var ss = SpreadsheetApp.openById(ssID).getSheetByName(ans[3]);
     
