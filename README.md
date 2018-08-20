@@ -1,4 +1,4 @@
-# Bounty-Program
+# MONEYNET.IO Bounty Program Scripts
 Google Apps Scripts for managing the MONEYNET.IO Bounty Program.
 
 ## Manual
