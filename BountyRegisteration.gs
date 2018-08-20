@@ -32,7 +32,7 @@ function myFunction(e) {
         data = [ans[0], ans[1], ans[2], ans[3], ans[7]];
         break;
       
-      case "비트코인톡 서명 (Bitcointalk Signature):
+      case "비트코인톡 서명 (Bitcointalk Signature)":
         data = [ans[0], ans[1], ans[2], ans[3], ans[8]];
         break;
                                         
